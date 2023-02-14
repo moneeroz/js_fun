@@ -1,0 +1,171 @@
+/* Goole Font */
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600;700&family=Play:wght@400;700&family=Signika+Negative:wght@400;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* color-scheme: dark light; */
+  
+  background: linear-gradient(250deg, rgb(42, 89, 113) 0%, rgb(145, 197, 212) 100%);
+  /* height: 100vh; */
+  overflow: none;
+}
+
+body {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+nav, footer {
+  background: rgb(80, 157, 179);
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-block: .5rem;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  margin-block: 18%;
+}
+
+section > div {
+  text-align: center;
+}
+
+.formHeader {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-block-end: 10%;
+}
+
+.displayBlock {
+  display: block;
+}
+
+section form {
+  width: 80%;
+  background-color: rgba(204, 204, 204, 0.3);
+  border-radius:1.2rem;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+  padding-block: 2rem;
+
+}
+
+.darkForm {
+  background-color: rgba(3, 2, 2, 0.8);
+  color: rgb(255, 255, 255);
+}
+
+input {
+  margin-inline: 15%;
+}
+
+button {
+  background-color: rgba(88, 127, 135, 0.7);
+  border: none;
+  border-radius: .3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  padding-inline: .7rem;
+  padding-block: 0.3rem;
+  
+}
+
+section > p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-block: 18%;
+}
+
+/* Media queries */
+@media all and (min-width: 768px) {
+  header {
+    text-align: center;
+    font-size: 2rem;
+    margin-block: 10%;
+  }
+
+  section > p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-block: 20%;
+  }
+}
+
+@media all and (min-width: 910px) {
+  header {
+    text-align: center;
+    font-size: 2rem;
+    margin-block: 20%;
+  }
+
+  section > p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-block: 23%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  header {
+    text-align: center;
+    font-size: 2rem;
+    margin-block: 1%;
+  }
+
+  .formHeader {
+    margin-block-end: 2%;
+  }
+
+  section form {
+    width: 40%;
+  }
+
+  input {
+    margin-inline: 16%;
+  }
+
+  section > p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-block: 3.5%;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  header {
+    text-align: center;
+    font-size: 2rem;
+    margin-block: 11%;
+  }
+
+  .formHeader {
+    margin-block-end: 2%;
+  }
+
+  section form {
+    width: 50%;
+  }
+  section > p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-block: 8.4%;
+  }
+}
+
+
+
