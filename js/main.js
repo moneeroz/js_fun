@@ -45,27 +45,3 @@ function sumNums () {
 
   document.querySelector('#formOutput').innerText = sum
 }
-
-// // Array Sorting Function
-// const unsortedArr = [3, 2, -3, 5, 15, 50, -6, -2, 9]
-// // const sortArr = arr => arr.sort((a, b) => a - b)
-// // sortArr(unsortedArr)
-
-// const sortedArr = sortArr(unsortedArr)
-// console.log(sortedArr)
-
-// // Sum of nums divisible by 5
-// let sum = 0
-// const sumNums = arr => {
-//   const divisableElements = []
-//   for (const e of arr) {
-//     if (e % 5 === 0) {
-//       divisableElements.push(e)
-//     }
-//   }
-//   for (const n of divisableElements) {
-//     sum += n
-//   }
-// }
-// sumNums(sortedArr)
-// console.log(sum)
